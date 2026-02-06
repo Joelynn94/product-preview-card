@@ -1,0 +1,12 @@
+.productCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--border-radius);
+}
+
+@media screen and (min-width: 768px) {
+  .productCard {
+    flex-direction: row;
+    max-width: 600px;
+  }
+}

@@ -1,0 +1,9 @@
+.productDescription {
+  font-family: var(--font-family-montserrat);
+  font-weight: var(--font-weight-medium);
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.6; /* 160% */
+  letter-spacing: 0;
+  color: var(--gray);
+  margin-bottom: var(--spacing-300);
+}

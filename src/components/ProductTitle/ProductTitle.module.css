@@ -1,0 +1,9 @@
+.productTitle {
+  font-family: var(--font-family-fraunces);
+  font-weight: var(--font-weight-bold);
+  font-size: 2rem /* 32px */;
+  line-height: 1; /* 100% */
+  letter-spacing: 0;
+  color: var(--black);
+  margin-bottom: var(--spacing-300);
+}

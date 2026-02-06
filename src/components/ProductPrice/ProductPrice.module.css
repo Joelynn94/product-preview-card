@@ -1,0 +1,31 @@
+.productPrice {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-200);
+  margin-bottom: var(--spacing-300);
+}
+
+.currentPrice {
+  font-family: var(--font-family-fraunces);
+  font-weight: var(--font-weight-bold);
+  font-size: 2rem /* 32px */;
+  line-height: 1; /* 100% */
+  letter-spacing: 0;
+  color: var(--green-500);
+}
+
+.originalPrice {
+  font-family: var(--font-family-montserrat);
+  font-weight: var(--font-weight-medium);
+  font-size: 0.8125rem /* 13px */;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0;
+  color: var(--gray);
+}
+
+@media screen and (min-width: 768px) {
+  .productPrice {
+    margin-top: var(--spacing-400);
+    margin-bottom: var(--spacing-400);
+  }
+}

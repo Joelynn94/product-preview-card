@@ -1,0 +1,16 @@
+.productContent {
+  padding: var(--spacing-400);
+  background-color: var(--white);
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+@media screen and (min-width: 768px) {
+  .productContent {
+    flex-basis: 50%;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+}
