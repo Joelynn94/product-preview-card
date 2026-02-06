@@ -2,7 +2,7 @@ import styles from "./AddToCartButton.module.css";
 
 function AddToCartButton() {
   return (
-    <button className={`${styles.primaryButton} text-preset-3`}>
+    <button className={styles.primaryButton}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="15"
