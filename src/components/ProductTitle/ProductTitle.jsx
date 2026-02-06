@@ -1,7 +1,7 @@
 import styles from "./ProductTitle.module.css";
 
 function ProductTitle({ title }) {
-  return <h2 className={styles.productTitle}>{title}</h2>;
+  return <h1 className={styles.productTitle}>{title}</h1>;
 }
 
 export default ProductTitle;
